@@ -1,0 +1,268 @@
+Fair,https://www.weather.gov/images/nws/newicons/skc.png,https://www.weather.gov/images/nws/newicons/nskc.png,
+Clear,https://www.weather.gov/images/nws/newicons/skc.png,https://www.weather.gov/images/nws/newicons/nskc.png,
+Fair with Haze,https://www.weather.gov/images/nws/newicons/skc.png,https://www.weather.gov/images/nws/newicons/nskc.png,
+Clear with Haze,https://www.weather.gov/images/nws/newicons/skc.png,https://www.weather.gov/images/nws/newicons/nskc.png,
+Fair and Breezy,https://www.weather.gov/images/nws/newicons/skc.png,https://www.weather.gov/images/nws/newicons/nskc.png,
+Clear and Breezy,https://www.weather.gov/images/nws/newicons/skc.png,https://www.weather.gov/images/nws/newicons/nskc.png,
+A Few Clouds,https://www.weather.gov/images/nws/newicons/few.png,https://www.weather.gov/images/nws/newicons/nfew.png,
+A Few Clouds with Haze,https://www.weather.gov/images/nws/newicons/few.png,https://www.weather.gov/images/nws/newicons/nfew.png,
+A Few Clouds and Breezy,https://www.weather.gov/images/nws/newicons/few.png,https://www.weather.gov/images/nws/newicons/nfew.png,
+Partly Cloudy,https://www.weather.gov/images/nws/newicons/sct.png,https://www.weather.gov/images/nws/newicons/nsct.png,
+Partly Cloudy with Haze,https://www.weather.gov/images/nws/newicons/sct.png,https://www.weather.gov/images/nws/newicons/nsct.png,
+Partly Cloudy and Breezy,https://www.weather.gov/images/nws/newicons/sct.png,https://www.weather.gov/images/nws/newicons/nsct.png,
+Mostly Cloudy,https://www.weather.gov/images/nws/newicons/bkn.png,https://www.weather.gov/images/nws/newicons/bkn.png,
+Mostly Cloudy with Haze,https://www.weather.gov/images/nws/newicons/bkn.png,https://www.weather.gov/images/nws/newicons/bkn.png,
+Mostly Cloudy and Breezy,https://www.weather.gov/images/nws/newicons/bkn.png,https://www.weather.gov/images/nws/newicons/bkn.png,
+Overcast,https://www.weather.gov/images/nws/newicons/ovc.png,https://www.weather.gov/images/nws/newicons/novc.png,
+Overcast with Haze,https://www.weather.gov/images/nws/newicons/ovc.png,https://www.weather.gov/images/nws/newicons/novc.png,
+Overcast and Breezy,https://www.weather.gov/images/nws/newicons/ovc.png,https://www.weather.gov/images/nws/newicons/novc.png,
+Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Showers,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Snow Showers,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Snow Showers,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Showers Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Showers Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Showers Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Snow Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Snow Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Showers Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Snow Showers Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Snow Showers Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Showers Snow Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Showers Snow Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Showers Snow Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Fog,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Snow Fog,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Snow Fog,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Showers Fog,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Snow Showers Fog,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Snow Showers Fog,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Showers in Vicinity Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Showers in Vicinity,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Showers in Vicinity Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Showers in Vicinity Fog,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Low Drifting Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Blowing Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Low Drifting Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Blowing Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Snow Low Drifting Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Snow Blowing Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Snow Blowing Snow Fog/Mist,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Snow Low Drifting Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Snow Blowing Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Thunderstorm Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Thunderstorm Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Thunderstorm Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Snow Grains,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Light Snow Grains,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Snow Grains,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Heavy Blowing Snow,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Blowing Snow in Vicinity,https://www.weather.gov/images/nws/newicons/sn.png,https://www.weather.gov/images/nws/newicons/nsn.png,
+Rain Snow,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Light Rain Snow,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Heavy Rain Snow,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Snow Rain,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Light Snow Rain,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Heavy Snow Rain,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Drizzle Snow,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Light Drizzle Snow,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Heavy Drizzle Snow,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Snow Drizzle,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Light Snow Drizzle,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Heavy Drizzle Snow,https://www.weather.gov/images/nws/newicons/ra_sn.png,https://www.weather.gov/images/nws/newicons/nra_sn.png,
+Rain Ice Pellets,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Light Rain Ice Pellets,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Heavy Rain Ice Pellets,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Drizzle Ice Pellets,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Light Drizzle Ice Pellets,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Heavy Drizzle Ice Pellets,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Ice Pellets Rain,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Light Ice Pellets Rain,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Heavy Ice Pellets Rain,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Ice Pellets Drizzle,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Light Ice Pellets Drizzle,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Heavy Ice Pellets Drizzle,https://www.weather.gov/images/nws/newicons/raip.png,https://www.weather.gov/images/nws/newicons/nraip.png,
+Freezing Rain,https://www.weather.gov/images/nws/newicons/fzra.png,https://www.weather.gov/images/nws/newicons/fzra.png,
+Freezing Drizzle,https://www.weather.gov/images/nws/newicons/fzra.png,https://www.weather.gov/images/nws/newicons/fzra.png,
+Light Freezing Rain,https://www.weather.gov/images/nws/newicons/fzra.png,https://www.weather.gov/images/nws/newicons/fzra.png,
+Light Freezing Drizzle,https://www.weather.gov/images/nws/newicons/fzra.png,https://www.weather.gov/images/nws/newicons/fzra.png,
+Heavy Freezing Rain,https://www.weather.gov/images/nws/newicons/fzra.png,https://www.weather.gov/images/nws/newicons/fzra.png,
+Heavy Freezing Drizzle,https://www.weather.gov/images/nws/newicons/fzra.png,https://www.weather.gov/images/nws/newicons/fzra.png,
+Freezing Rain in Vicinity,https://www.weather.gov/images/nws/newicons/fzra.png,https://www.weather.gov/images/nws/newicons/fzra.png,
+Freezing Drizzle in Vicinity,https://www.weather.gov/images/nws/newicons/fzra.png,https://www.weather.gov/images/nws/newicons/fzra.png,
+Freezing Rain Rain,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Light Freezing Rain Rain,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Heavy Freezing Rain Rain,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Rain Freezing Rain,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Light Rain Freezing Rain,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Heavy Rain Freezing Rain,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Freezing Drizzle Rain,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Light Freezing Drizzle Rain,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Heavy Freezing Drizzle Rain,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Rain Freezing Drizzle,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Light Rain Freezing Drizzle,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Heavy Rain Freezing Drizzle,https://www.weather.gov/images/nws/newicons/ra_fzra.png,https://www.weather.gov/images/nws/newicons/nra_fzra.png,
+Freezing Rain Snow,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Light Freezing Rain Snow,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Heavy Freezing Rain Snow,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Freezing Drizzle Snow,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Light Freezing Drizzle Snow,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Heavy Freezing Drizzle Snow,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Snow Freezing Rain,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Light Snow Freezing Rain,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Heavy Snow Freezing Rain,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Snow Freezing Drizzle,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Light Snow Freezing Drizzle,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Heavy Snow Freezing Drizzle,https://www.weather.gov/images/nws/newicons/fzra_sn.png,https://www.weather.gov/images/nws/newicons/nfzra_sn.png,
+Ice Pellets,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Light Ice Pellets,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Heavy Ice Pellets,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Ice Pellets in Vicinity,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Showers Ice Pellets,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Thunderstorm Ice Pellets,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Ice Crystals,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Hail,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Small Hail/Snow Pellets,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Light Small Hail/Snow Pellets,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Heavy small Hail/Snow Pellets,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Showers Hail,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Hail Showers,https://www.weather.gov/images/nws/newicons/ip.png,https://www.weather.gov/images/nws/newicons/nip.png,
+Snow Ice Pellets,https://www.weather.gov/images/nws/newicons/snip.png,https://www.weather.gov/images/nws/newicons/nsnip.png,
+Light Rain,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Drizzle,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Light Drizzle,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Heavy Drizzle,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Light Rain Fog/Mist,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Drizzle Fog/Mist,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Light Drizzle Fog/Mist,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Heavy Drizzle Fog/Mist,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Light Rain Fog,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Drizzle Fog,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Light Drizzle Fog,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Heavy Drizzle Fog,https://www.weather.gov/images/nws/newicons/minus_ra.png,https://www.weather.gov/images/nws/newicons/nra.png,
+Rain,https://www.weather.gov/images/nws/newicons/ra.png,https://www.weather.gov/images/nws/newicons/ra.png,
+Heavy Rain,https://www.weather.gov/images/nws/newicons/ra.png,https://www.weather.gov/images/nws/newicons/ra.png,
+Rain Fog/Mist,https://www.weather.gov/images/nws/newicons/ra.png,https://www.weather.gov/images/nws/newicons/ra.png,
+Heavy Rain Fog/Mist,https://www.weather.gov/images/nws/newicons/ra.png,https://www.weather.gov/images/nws/newicons/ra.png,
+Rain Fog,https://www.weather.gov/images/nws/newicons/ra.png,https://www.weather.gov/images/nws/newicons/ra.png,
+Heavy Rain Fog,https://www.weather.gov/images/nws/newicons/ra.png,https://www.weather.gov/images/nws/newicons/ra.png,
+Rain Showers,https://www.weather.gov/images/nws/newicons/shra.png,https://www.weather.gov/images/nws/newicons/nshra.png,(w/cloud cover > 60%)
+Light Rain Showers,https://www.weather.gov/images/nws/newicons/shra.png,https://www.weather.gov/images/nws/newicons/nshra.png,(w/cloud cover > 60%)
+Light Rain and Breezy,https://www.weather.gov/images/nws/newicons/shra.png,https://www.weather.gov/images/nws/newicons/nshra.png,(w/cloud cover > 60%)
+Heavy Rain Showers,https://www.weather.gov/images/nws/newicons/shra.png,https://www.weather.gov/images/nws/newicons/nshra.png,(w/cloud cover > 60%)
+Rain Showers in Vicinity,https://www.weather.gov/images/nws/newicons/shra.png,https://www.weather.gov/images/nws/newicons/nshra.png,(w/cloud cover > 60%)
+Light Showers Rain,https://www.weather.gov/images/nws/newicons/shra.png,https://www.weather.gov/images/nws/newicons/nshra.png,(w/cloud cover > 60%)
+Heavy Showers Rain,https://www.weather.gov/images/nws/newicons/shra.png,https://www.weather.gov/images/nws/newicons/nshra.png,(w/cloud cover > 60%)
+Showers Rain,https://www.weather.gov/images/nws/newicons/shra.png,https://www.weather.gov/images/nws/newicons/nshra.png,(w/cloud cover > 60%)
+Thunderstorm,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Rain,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Light Thunderstorm Rain,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Heavy Thunderstorm Rain,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Rain Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Light Thunderstorm Rain Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Fog and Windy,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Showers in Vicinity,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Light Thunderstorm Rain Haze,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Haze,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Light Thunderstorm Rain Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Light Rain,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Heavy Rain,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Rain Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Light Rain Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm in Vicinity Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Showers in Vicinity,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm in Vicinity Haze,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Haze in Vicinity,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Light Rain Haze,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Haze,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Light Rain Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Hail,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Light Thunderstorm Rain Hail,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Hail,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Rain Hail Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Light Thunderstorm Rain Hail Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Hail Fog/Hail,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Showers in Vicinity Hail,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Light Thunderstorm Rain Hail Haze,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Hail Haze,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Hail Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Light Thunderstorm Rain Hail Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Hail Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Light Rain Hail,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Hail,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Rain Hail Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Light Rain Hail Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Hail Fog/Mist,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm in Vicinity Hail,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm in Vicinity Hail Haze,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Haze in Vicinity Hail,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Light Rain Hail Haze,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Hail Haze,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Hail Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Light Rain Hail Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Hail Fog,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Small Hail/Snow Pellets,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm Rain Small Hail/Snow Pellets,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Light Thunderstorm Rain Small Hail/Snow Pellets,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Small Hail/Snow Pellets,https://www.weather.gov/images/nws/newicons/tsra.png,https://www.weather.gov/images/nws/newicons/ntsra.png,(w/cloud cover > 75%)
+Thunderstorm in Vicinity,https://www.weather.gov/images/nws/newicons/scttsra.png,https://www.weather.gov/images/nws/newicons/nscttsra.png,(Cloud cover 60 - 75%) 
+Thunderstorm in Vicinity,https://www.weather.gov/images/nws/newicons/hi_tsra.png,https://www.weather.gov/images/nws/newicons/hi_ntsra.png,(Cloud cover < 60%)
+Thunderstorm in Vicinity Fog,https://www.weather.gov/images/nws/newicons/hi_tsra.png,https://www.weather.gov/images/nws/newicons/hi_ntsra.png,(Cloud cover < 60%)
+Thunderstorm in Vicinity Haze,https://www.weather.gov/images/nws/newicons/hi_tsra.png,https://www.weather.gov/images/nws/newicons/hi_ntsra.png,(Cloud cover < 60%)
+Funnel Cloud,https://www.weather.gov/images/nws/newicons/fc.png,https://www.weather.gov/images/nws/newicons/nfc.png,
+Funnel Cloud in Vicinity,https://www.weather.gov/images/nws/newicons/fc.png,https://www.weather.gov/images/nws/newicons/nfc.png,
+Tornado/Water Spout,https://www.weather.gov/images/nws/newicons/fc.png,https://www.weather.gov/images/nws/newicons/nfc.png,
+Tornado,https://www.weather.gov/images/nws/newicons/tor.png,https://www.weather.gov/images/nws/newicons/ntor.png,
+Hurricane Warning,https://www.weather.gov/images/nws/newicons/hur_warn.png,,
+Hurricane Watch,https://www.weather.gov/images/nws/newicons/hur_watch.png,,
+Tropical Storm Warning,https://www.weather.gov/images/nws/newicons/ts_warn.png,,
+Tropical Storm Watch,https://www.weather.gov/images/nws/newicons/ts_watch.png,,
+Tropical Storm Conditions presently exist w/Hurricane Warning in effect,https://www.weather.gov/images/nws/newicons/ts_nowarn.png,,
+Windy,https://www.weather.gov/images/nws/newicons/wind_skc.png,https://www.weather.gov/images/nws/newicons/nwind_skc.png,
+Breezy,https://www.weather.gov/images/nws/newicons/wind_skc.png,https://www.weather.gov/images/nws/newicons/nwind_skc.png,
+Fair and Windy,https://www.weather.gov/images/nws/newicons/wind_skc.png,https://www.weather.gov/images/nws/newicons/nwind_skc.png,
+A Few Clouds and Windy,https://www.weather.gov/images/nws/newicons/wind_few.png,https://www.weather.gov/images/nws/newicons/nwind_few.png,
+Partly Cloudy and Windy,https://www.weather.gov/images/nws/newicons/wind_sct.png,https://www.weather.gov/images/nws/newicons/nwind_sct.png,
+Mostly Cloudy and Windy,https://www.weather.gov/images/nws/newicons/wind_bkn.png,https://www.weather.gov/images/nws/newicons/nwind_bkn.png,
+Overcast and Windy,https://www.weather.gov/images/nws/newicons/nwind_bkn.png,https://www.weather.gov/images/nws/newicons/nwind_bkn.png,
+Dust,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Low Drifting Dust,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Blowing Dust,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Sand,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Blowing Sand,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Low Drifting Sand,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Dust/Sand Whirls,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Dust/Sand Whirls in Vicinity,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Dust Storm,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Heavy Dust Storm,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Dust Storm in Vicinity,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Sand Storm,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Heavy Sand Storm,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Sand Storm in Vicinity,https://www.weather.gov/images/nws/newicons/du.png,https://www.weather.gov/images/nws/newicons/ndu.png,
+Smoke,https://www.weather.gov/images/nws/newicons/fu.png,https://www.weather.gov/images/nws/newicons/fu.png,
+Haze,https://www.weather.gov/images/nws/newicons/hz.png,,
+Hot,https://www.weather.gov/images/nws/newicons/hot.png,,
+Cold,https://www.weather.gov/images/nws/newicons/cold.png,https://www.weather.gov/images/nws/newicons/ncold.png,
+Blizzard,https://www.weather.gov/images/nws/newicons/blizzard.png,https://www.weather.gov/images/nws/newicons/nblizzard.png,
+Fog/Mist,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Freezing Fog,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Shallow Fog,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Partial Fog,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Patches of Fog,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Fog in Vicinity,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Freezing Fog in Vicinity,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Shallow Fog in Vicinity,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Partial Fog in Vicinity,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Patches of Fog in Vicinity,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Showers in Vicinity Fog,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Light Freezing Fog,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,
+Heavy Freezing Fog,https://www.weather.gov/images/nws/newicons/fg.png,https://www.weather.gov/images/nws/newicons/nfg.png,

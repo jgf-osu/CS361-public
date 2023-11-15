@@ -19,15 +19,10 @@ if __name__ == '__main__':
         payload = ws.encode(request)
         s.connect((server.host, server.port))
         s.sendall(payload)
-
-        time.sleep(1)
-
         response = ws.decode(s.recv(1024))
 
+        location = '%s, %s' % (request['city'], request['state'])
+        report = "Weather conditions requested for %s." % location
+        print(report)
         print(response)
-
-        if 0:
-            location = '%s, %s' % (request['city'], request['state'])
-            conditions = response_dict['text'].upper()
-            report = "The weather in %s is currently %s." % (location, conditions)
-            print(report)
+        

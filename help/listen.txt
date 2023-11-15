@@ -1,0 +1,20 @@
+==================================================
+USAGE: python listen.py --help
+       python listen.py -h
+==================================================
+Display this help information.
+
+==================================================
+USAGE: python listen.py
+==================================================
+Script will choose an arbitrary, non-privileged
+port on localhost. Chosen port will be printed to
+stderr.
+
+==================================================
+USAGE: python listen.py {PORT_NUMBER}
+==================================================
+When PORT_NUMBER is provided, script will attempt
+to listen on the provided port. If value provided
+is not an integer, an arbitrary, non-privileged
+port will be chosen as described above.

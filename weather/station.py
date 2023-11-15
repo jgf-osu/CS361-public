@@ -77,7 +77,24 @@ class Station(Point):
                                        self._parser(), stale=ONE_HOUR)
         current_observation = document.getroot()
         return _xml_to_dict(current_observation)
-    
+
+    @property
+    def brief_report(self):
+        report = ''
+        
+        if 'temperature_string' in self.current_conditions:
+            temp = self.current_conditions['temperature_string']
+            df, dc = '℉', '℃'
+            report += temp.replace('F', df).replace('C', dc)
+
+        if 'weather' in self.current_conditions:
+            report += ' ' + self.current_conditions['weather']
+        
+        if not report:
+            report = "No report available for this location."
+
+        return report
+
     def _downloader(self):
         def downloader():
             download_resource(self._data['xml_url'], self._file)

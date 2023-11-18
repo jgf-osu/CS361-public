@@ -1,0 +1,38 @@
+def cc_obs_time(location_obj):	
+    """Returns a sg.Text telling when the last observation was made at the current weather station."""
+    cc = location_obj.current_conditions
+    font = ('sans', 8)
+    if cc is None:
+        obs = sg.Text('Station not contacted.', font=font)
+    else:
+        tt = "Click to open web browser and see data from last two days"\
+            " at station %s." % cc['station_id']
+        obs = sg.Text(cc['observation_time'], font=font,
+                    enable_events=True, key=WEATHER_STATION,
+                    tooltip=tt)
+    return obs
+
+def cc_report(location_obj):
+    """Returns a sg.Text reporting current conditions at the
+    current weather station."""
+    cc = location_obj.current_conditions
+    font = ('sans', 10)
+    df, dc = ('℉', '℃')
+        
+    if cc is None:
+        out = sg.Text('Weather unkown.')
+    else:
+        if self._cfg['UNITS'] == 'F':
+            temp_key, unit_str = 'temp_f', '℉'
+            report = cc[temp_key] + unit_str
+        elif self._cfg['UNITS'] == 'C':
+            temp_key, unit_str = 'temp_c', '℃'
+            report = cc[temp_key] + unit_str
+        else:
+            temp_key = 'temperature_string'
+            report = cc[temp_key].replace('F', df).replace('C', dc)
+        if 'weather' in cc:
+            report = report + ' ' + cc['weather']
+            out = sg.Text(report, font=font)
+    return out
+            

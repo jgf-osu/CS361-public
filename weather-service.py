@@ -1,6 +1,5 @@
 import sys
 import random
-from weather.configurator import Configurator
 from weather.service import WeatherService
 
 def cli_parse():

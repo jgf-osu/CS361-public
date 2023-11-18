@@ -1,0 +1,35 @@
+from weather.configurator import Configurator as Cfg
+from weather.geocoder import Place, PlaceNotFound
+from weather.station import find_nearest_station
+
+class Location(Place):
+    def __init__(self, city, state):
+        self._city = city
+        self._state = state
+        super().__init__(self, city=city, state=state)
+        self._station = None
+
+    @property
+    def city(self):
+        return self._city
+
+    @property
+    def state(self):
+        return self._state
+
+    @property
+    def coordinates(self):
+        return '%.4f, %.4f' % (self.lat, self.lon)
+
+    @property
+    def weather_station(self):
+        if self._station is None:
+            self._station = find_nearest_weather_station(self)
+        return self._station
+
+    @property
+    def current_conditions(self):
+        return self.weather_station.current_conditions
+
+    def __str__(self):
+        return '%s, %s' % (self.city, self.state)

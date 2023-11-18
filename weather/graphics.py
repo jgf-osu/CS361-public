@@ -1310,16 +1310,19 @@ def _nws_icon(fname):
     return b
 
 def icon_from_cc(current_conditions):
-    if current_conditions is not None:
-        cc = current_conditions['weather']
-        obs_time = current_conditions['observation_time_rfc822']
-        if cc in weather_icons:
-            icon_data = _nws_icon(weather_icons[cc]['day'])
-            tooltip = cc
+    cc, w = current_conditions, 'weather'
+    if cc is not None:
+        icon_data = _nws_icon('earth')
+        if w in cc:
+            if cc[w] in weather_icons:
+                icon_data = _nws_icon(weather_icons[cc[w]]['day'])
+                tooltip = cc[w]
+            else:
+                tooltip = 'No specific icon found for "%s" conditions.'\
+                    % cc[w]
         else:
-            icon_data = _nws_icon('earth')
-            tooltip = 'No specific icon found for "%s" conditions.' %\
-                current_conditions['weather']
+            tooltip = 'No weather conditions reported by station %s.'\
+                % cc['station_id']
     else:
         icon_data = _nws_icon('void')
         tooltip = 'No weather data received.'

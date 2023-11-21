@@ -33,7 +33,6 @@ client is provided below, and an additional example is provided in
 
 Here is a UML sequence diagram:
 
-![UML sequence diagram](./uml.png)
 
 #### Request format
 

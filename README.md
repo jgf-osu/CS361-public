@@ -22,7 +22,7 @@ a server implementation is contained in
 [`weather-service.py`](./weather-service.py). This implementation will
 run the service on your localhost at a provided port number; if no
 port number or an invalid port number is provided, the service will be
-run on an arbitrarily-chosen non-priveleged port (and the port so
+run on an arbitrarily-chosen non-privileged port (and the port so
 chosen will be printed to stderr).
 
 ### "Communication Contract" for TCP clients

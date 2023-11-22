@@ -8,7 +8,9 @@ weather data for US cities.
 A GUI-based client is provided for use in standard desktop
 environments. To execute from this directory use the command:
 
-```python main.py```
+```sh
+python main.py
+```
 
 The source of the GUI client can be found in the	
 [`gui`](./gui/__init__.py) subdirectory of this directory.
@@ -22,7 +24,7 @@ a server implementation is contained in
 [`weather-service.py`](./weather-service.py). This implementation will
 run the service on your localhost at a provided port number; if no
 port number or an invalid port number is provided, the service will be
-run on an arbitrarily-chosen non-privileged port (and the port so
+run on an arbitrarily-chosen non-priveleged port (and the port so
 chosen will be printed to stderr).
 
 ### "Communication Contract" for TCP clients
@@ -70,7 +72,7 @@ We can make use of the WeatherService class to retrieve information
 about a local service; namely, the `host` and `port` properties
 retrieve that information from the active service.
 
-```
+```python
 import socket
 import weather.service as ws
 
@@ -80,6 +82,7 @@ request_dict = {
     'state': 'Ohio'
 }
 
+server = ws.WeatherService()
 payload = ws.encode(request_dict)
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((server.host, server.port))
@@ -98,9 +101,9 @@ This would print something like:
 
 This is not substantially different from communicating with a local
 service, however we cannot rely on the WeatherService class to provide
-host a port information, which we'll need to know by other means.
+host and port information, which we'll need to know by other means.
 
-```
+```python
 import socket
 import weather.service as ws
 

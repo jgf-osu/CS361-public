@@ -1,5 +1,0 @@
-from . import gui
-
-def run():
-    g = gui.GUI()
-    g.run()

@@ -44,6 +44,7 @@ class GUI:
         # CURRENT CONDITIONS COLUMN
         icon, icon_tooltip = icon_from_cc(weather)
 
+        self.weather_report = self._cc_report(weather)        
         col0 = [
             [sg.Text('CURRENT CONDITIONS', font=('sans', 12, 'bold underline'))],
             [
@@ -53,7 +54,7 @@ class GUI:
                 sg.Column([
                     [sg.Text(location_str, font=('sans', 14, 'bold'))], # city, state
                     [sg.Text(coordstr, font=('sans',8))], # lat, lon
-                    [self._cc_report(weather)] # temp & weather
+                    [sg.Text(self.weather_report, font=('sans', 10))] # temp & weather
                 ], vertical_alignment='top')
             ],
             [self._cc_obs_time(weather)]
@@ -61,12 +62,8 @@ class GUI:
 
         # MAIN NAVIGATION COLUMN
         col1 = [
-            [sg.Button('Hourly Forecast',
-                       tooltip="See the hourly forecast for the next 24 hours.")],
-            [sg.Button('Extended Forecast',
-                       tooltip="See the 10-day forecast.")],
-            [sg.Button('Weather Archive',
-                       tooltip="See historical trends.")],
+            [sg.Button('Encrypted Report', key='-BTN-ENCRYPT-',
+                       tooltip="Show an encrypted weather report.")],
             [sg.Button('Settings', key='-BTN-SETTINGS-',
                        tooltip="Change temperature units or forecast location.")]
         ]  
@@ -83,6 +80,8 @@ class GUI:
             if event == '-BTN-SETTINGS-':
                 self._main_window.close()
                 self._show_settings()
+            if event == '-BTN-ENCRYPT-':
+                sg.popup('Encrypted Weather', demsar(self.weather_report))
             if event == WEATHER_STATION:
                 webbrowser.open(weather['two_day_history_url'])
 
@@ -237,9 +236,27 @@ class GUI:
                 report = cc[temp_key].replace('F', df).replace('C', dc)
             if 'weather' in cc:
                 report = report + ' ' + cc['weather']
-            return sg.Text(report, font=font)
+            return report
 
+import json
+import socket
+        
+def encode(python_obj):
+    j = json.dumps(python_obj)
+    return j.encode('utf-8')
 
+def decode(bytes_arr):
+    s = bytes_arr.decode('utf-8')
+    return json.loads(s)
+        
+def demsar(msg):
+    req = encode(msg)
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.connect(('127.0.0.1', 12345))
+        s.sendall(req)
+        response = decode(s.recv(1024))
+    return response
+        
 def run():
     g = GUI()
     g.run()

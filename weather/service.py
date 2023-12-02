@@ -58,7 +58,11 @@ class WeatherService:
                         rmsg = weather_station.brief_report
                     except PlaceNotFound:
                         rstatus = 'PlaceNotFound'
-                        rmsg = 'Could not find that place.'                        
+                        rmsg = 'Unable to retrieve weather report. Could not geocode the provided location. Please try a different location.'
+                    except UnicodeEncodeError:
+                        rstatus = 'UnicodeEncodeError'
+                        rmsg = 'Unable to retrieve weather report. A remote resource was improperly formatted. Please try again later.'
+                        
                     response = {
                         'status' : rstatus,
                         'response-type': 'current-conditions',

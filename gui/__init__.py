@@ -243,18 +243,25 @@ import socket
         
 def encode(python_obj):
     j = json.dumps(python_obj)
-    return j.encode('utf-8')
+    return j.encode()
 
 def decode(bytes_arr):
-    s = bytes_arr.decode('utf-8')
-    return json.loads(s)
+    s = bytes_arr.decode()
+    #return json.loads(s)
+    return s
         
 def demsar(msg):
+    """
+    Works with software version:
+    https://github.com/demsar206/CS_361_Microservice/blob/f4943ccd594db46af59ba929a9d721718198458b/Encryptor.py
+    """
+    print("Encrypting: %s" % msg)
     req = encode(msg)
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect(('127.0.0.1', 12345))
-        s.sendall(req)
+        s.send(req)
         response = decode(s.recv(1024))
+    print("Encrypted: %s" % response)
     return response
         
 def run():

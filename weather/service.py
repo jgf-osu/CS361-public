@@ -62,6 +62,9 @@ class WeatherService:
                     except UnicodeEncodeError:
                         rstatus = 'UnicodeEncodeError'
                         rmsg = 'Unable to retrieve weather report. A remote resource was improperly formatted. Please try again later.'
+                    except Exception:
+                        rstatus = 'UnknownError'
+                        rmsg = 'An unknown error ocurred.'
                         
                     response = {
                         'status' : rstatus,

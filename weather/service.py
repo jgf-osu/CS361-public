@@ -1,6 +1,7 @@
 import socket
 import json
 import sys
+import errno
 from . import configurator as config
 from .geocoder import Place, PlaceNotFound
 from .station import find_nearest_station
@@ -59,12 +60,21 @@ class WeatherService:
                     except PlaceNotFound:
                         rstatus = 'PlaceNotFound'
                         rmsg = 'Unable to retrieve weather report. Could not geocode the provided location. Please try a different location.'
-                    except UnicodeEncodeError:
-                        rstatus = 'UnicodeEncodeError'
-                        rmsg = 'Unable to retrieve weather report. A remote resource was improperly formatted. Please try again later.'
-                    except Exception:
-                        rstatus = 'UnknownError'
-                        rmsg = 'An unknown error ocurred.'
+                    except OSError as e:
+                        rstatus = e.__class__.__name__
+                        if e.errno:
+                            if e.errno in errno.errorcode:
+                                symbol = errno.errorcode[e.errno]
+                                rstatus += ' <Errno: %s>' % symbol
+                            else:
+                                rstatus += ' <Errno: %i>' % e.errno
+                        if rstatus == 'ConnectionError':
+                            rmsg = 'No Internet connection available.'
+                        else:
+                            rmsg = str(e.strerror)
+                    except Exception as e:
+                        rstatus = e.__class__.__name__
+                        rmsg = e.message
                         
                     response = {
                         'status' : rstatus,

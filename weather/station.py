@@ -11,7 +11,7 @@ STATION_INDEX_XML = path.data_file('stations.xml')
 ##
 ### XML HANDLING
 def _parse_xml(fpath):
-    with open(fpath, 'r') as f:
+    with open(fpath, 'r', encoding='utf-8') as f:
         document = xml_parse(f)
     return document
 

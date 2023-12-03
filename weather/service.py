@@ -70,11 +70,10 @@ class WeatherService:
                                 rstatus += ' <Errno: %i>' % e.errno
                         if rstatus == 'ConnectionError':
                             rmsg = 'No Internet connection available.'
-                        else:
-                            rmsg = str(e.strerror)
+                        rmsg = str(e.strerror)
                     except Exception as e:
                         rstatus = e.__class__.__name__
-                        rmsg = e.message
+                        rmsg = str(e)
                         
                     response = {
                         'status' : rstatus,

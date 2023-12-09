@@ -1,0 +1,261 @@
+WEATHER_CONDITIONS	DAY_ICON	NIGHT_ICON	QUALIFIER
+Fair	skc	nskc	
+Clear	skc	nskc	
+Fair with Haze	skc	nskc	
+Clear with Haze	skc	nskc	
+Fair and Breezy	skc	nskc	
+Clear and Breezy	skc	nskc	
+A Few Clouds	few	nfew	
+A Few Clouds with Haze	few	nfew	
+A Few Clouds and Breezy	few	nfew	
+Partly Cloudy	sct	nsct	
+Partly Cloudy with Haze	sct	nsct	
+Partly Cloudy and Breezy	sct	nsct	
+Mostly Cloudy	bkn	bkn	
+Mostly Cloudy with Haze	bkn	bkn	
+Mostly Cloudy and Breezy	bkn	bkn	
+Overcast	ovc	novc	
+Overcast with Haze	ovc	novc	
+Overcast and Breezy	ovc	novc	
+Snow	sn	nsn	
+Light Snow	sn	nsn	
+Heavy Snow	sn	nsn	
+Snow Showers	sn	nsn	
+Light Snow Showers	sn	nsn	
+Heavy Snow Showers	sn	nsn	
+Showers Snow	sn	nsn	
+Light Showers Snow	sn	nsn	
+Heavy Showers Snow	sn	nsn	
+Snow Fog/Mist	sn	nsn	
+Light Snow Fog/Mist	sn	nsn	
+Heavy Snow Fog/Mist	sn	nsn	
+Snow Showers Fog/Mist	sn	nsn	
+Light Snow Showers Fog/Mist	sn	nsn	
+Heavy Snow Showers Fog/Mist	sn	nsn	
+Showers Snow Fog/Mist	sn	nsn	
+Light Showers Snow Fog/Mist	sn	nsn	
+Heavy Showers Snow Fog/Mist	sn	nsn	
+Snow Fog	sn	nsn	
+Light Snow Fog	sn	nsn	
+Heavy Snow Fog	sn	nsn	
+Snow Showers Fog	sn	nsn	
+Light Snow Showers Fog	sn	nsn	
+Heavy Snow Showers Fog	sn	nsn	
+Showers in Vicinity Snow	sn	nsn	
+Snow Showers in Vicinity	sn	nsn	
+Snow Showers in Vicinity Fog/Mist	sn	nsn	
+Snow Showers in Vicinity Fog	sn	nsn	
+Low Drifting Snow	sn	nsn	
+Blowing Snow	sn	nsn	
+Snow Low Drifting Snow	sn	nsn	
+Snow Blowing Snow	sn	nsn	
+Light Snow Low Drifting Snow	sn	nsn	
+Light Snow Blowing Snow	sn	nsn	
+Light Snow Blowing Snow Fog/Mist	sn	nsn	
+Heavy Snow Low Drifting Snow	sn	nsn	
+Heavy Snow Blowing Snow	sn	nsn	
+Thunderstorm Snow	sn	nsn	
+Light Thunderstorm Snow	sn	nsn	
+Heavy Thunderstorm Snow	sn	nsn	
+Snow Grains	sn	nsn	
+Light Snow Grains	sn	nsn	
+Heavy Snow Grains	sn	nsn	
+Heavy Blowing Snow	sn	nsn	
+Blowing Snow in Vicinity	sn	nsn	
+Rain Snow	ra_sn	nra_sn	
+Light Rain Snow	ra_sn	nra_sn	
+Heavy Rain Snow	ra_sn	nra_sn	
+Snow Rain	ra_sn	nra_sn	
+Light Snow Rain	ra_sn	nra_sn	
+Heavy Snow Rain	ra_sn	nra_sn	
+Drizzle Snow	ra_sn	nra_sn	
+Light Drizzle Snow	ra_sn	nra_sn	
+Heavy Drizzle Snow	ra_sn	nra_sn	
+Snow Drizzle	ra_sn	nra_sn	
+Light Snow Drizzle	ra_sn	nra_sn	
+Rain Ice Pellets	raip	nraip	
+Light Rain Ice Pellets	raip	nraip	
+Heavy Rain Ice Pellets	raip	nraip	
+Drizzle Ice Pellets	raip	nraip	
+Light Drizzle Ice Pellets	raip	nraip	
+Heavy Drizzle Ice Pellets	raip	nraip	
+Ice Pellets Rain	raip	nraip	
+Light Ice Pellets Rain	raip	nraip	
+Heavy Ice Pellets Rain	raip	nraip	
+Ice Pellets Drizzle	raip	nraip	
+Light Ice Pellets Drizzle	raip	nraip	
+Heavy Ice Pellets Drizzle	raip	nraip	
+Freezing Rain	fzra	fzra	
+Freezing Drizzle	fzra	fzra	
+Light Freezing Rain	fzra	fzra	
+Light Freezing Drizzle	fzra	fzra	
+Heavy Freezing Rain	fzra	fzra	
+Heavy Freezing Drizzle	fzra	fzra	
+Freezing Rain in Vicinity	fzra	fzra	
+Freezing Drizzle in Vicinity	fzra	fzra	
+Freezing Rain Rain	ra_fzra	nra_fzra	
+Light Freezing Rain Rain	ra_fzra	nra_fzra	
+Heavy Freezing Rain Rain	ra_fzra	nra_fzra	
+Rain Freezing Rain	ra_fzra	nra_fzra	
+Light Rain Freezing Rain	ra_fzra	nra_fzra	
+Heavy Rain Freezing Rain	ra_fzra	nra_fzra	
+Freezing Drizzle Rain	ra_fzra	nra_fzra	
+Light Freezing Drizzle Rain	ra_fzra	nra_fzra	
+Heavy Freezing Drizzle Rain	ra_fzra	nra_fzra	
+Rain Freezing Drizzle	ra_fzra	nra_fzra	
+Light Rain Freezing Drizzle	ra_fzra	nra_fzra	
+Heavy Rain Freezing Drizzle	ra_fzra	nra_fzra	
+Freezing Rain Snow	fzra_sn	nfzra_sn	
+Light Freezing Rain Snow	fzra_sn	nfzra_sn	
+Heavy Freezing Rain Snow	fzra_sn	nfzra_sn	
+Freezing Drizzle Snow	fzra_sn	nfzra_sn	
+Light Freezing Drizzle Snow	fzra_sn	nfzra_sn	
+Heavy Freezing Drizzle Snow	fzra_sn	nfzra_sn	
+Snow Freezing Rain	fzra_sn	nfzra_sn	
+Light Snow Freezing Rain	fzra_sn	nfzra_sn	
+Heavy Snow Freezing Rain	fzra_sn	nfzra_sn	
+Snow Freezing Drizzle	fzra_sn	nfzra_sn	
+Light Snow Freezing Drizzle	fzra_sn	nfzra_sn	
+Heavy Snow Freezing Drizzle	fzra_sn	nfzra_sn	
+Ice Pellets	ip	nip	
+Light Ice Pellets	ip	nip	
+Heavy Ice Pellets	ip	nip	
+Ice Pellets in Vicinity	ip	nip	
+Showers Ice Pellets	ip	nip	
+Thunderstorm Ice Pellets	ip	nip	
+Ice Crystals	ip	nip	
+Hail	ip	nip	
+Small Hail/Snow Pellets	ip	nip	
+Light Small Hail/Snow Pellets	ip	nip	
+Heavy small Hail/Snow Pellets	ip	nip	
+Showers Hail	ip	nip	
+Hail Showers	ip	nip	
+Snow Ice Pellets	snip	nsnip	
+Light Rain	minus_ra	nra	
+Drizzle	minus_ra	nra	
+Light Drizzle	minus_ra	nra	
+Heavy Drizzle	minus_ra	nra	
+Light Rain Fog/Mist	minus_ra	nra	
+Drizzle Fog/Mist	minus_ra	nra	
+Light Drizzle Fog/Mist	minus_ra	nra	
+Heavy Drizzle Fog/Mist	minus_ra	nra	
+Light Rain Fog	minus_ra	nra	
+Drizzle Fog	minus_ra	nra	
+Light Drizzle Fog	minus_ra	nra	
+Heavy Drizzle Fog	minus_ra	nra	
+Rain	ra	ra	
+Heavy Rain	ra	ra	
+Rain Fog/Mist	ra	ra	
+Heavy Rain Fog/Mist	ra	ra	
+Rain Fog	ra	ra	
+Heavy Rain Fog	ra	ra	
+Rain Showers	shra	nshra	(w/cloud cover > 60%)
+Light Rain Showers	shra	nshra	(w/cloud cover > 60%)
+Light Rain and Breezy	shra	nshra	(w/cloud cover > 60%)
+Heavy Rain Showers	shra	nshra	(w/cloud cover > 60%)
+Rain Showers in Vicinity	shra	nshra	(w/cloud cover > 60%)
+Light Showers Rain	shra	nshra	(w/cloud cover > 60%)
+Heavy Showers Rain	shra	nshra	(w/cloud cover > 60%)
+Showers Rain	shra	nshra	(w/cloud cover > 60%)
+Thunderstorm	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Rain	tsra	ntsra	(w/cloud cover > 75%)
+Light Thunderstorm Rain	tsra	ntsra	(w/cloud cover > 75%)
+Heavy Thunderstorm Rain	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Rain Fog/Mist	tsra	ntsra	(w/cloud cover > 75%)
+Light Thunderstorm Rain Fog/Mist	tsra	ntsra	(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Fog and Windy	tsra	ntsra	(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Fog/Mist	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Showers in Vicinity	tsra	ntsra	(w/cloud cover > 75%)
+Light Thunderstorm Rain Haze	tsra	ntsra	(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Haze	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Fog	tsra	ntsra	(w/cloud cover > 75%)
+Light Thunderstorm Rain Fog	tsra	ntsra	(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Fog	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Light Rain	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Heavy Rain	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Light Rain Fog/Mist	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Fog/Mist	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm in Vicinity Fog/Mist	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm in Vicinity Haze	hi_tsra	hi_ntsra	(Cloud cover < 60%)
+Thunderstorm Haze in Vicinity	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Light Rain Haze	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Haze	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Light Rain Fog	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Fog	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Hail	tsra	ntsra	(w/cloud cover > 75%)
+Light Thunderstorm Rain Hail	tsra	ntsra	(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Hail	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Rain Hail Fog/Mist	tsra	ntsra	(w/cloud cover > 75%)
+Light Thunderstorm Rain Hail Fog/Mist	tsra	ntsra	(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Hail Fog/Hail	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Showers in Vicinity Hail	tsra	ntsra	(w/cloud cover > 75%)
+Light Thunderstorm Rain Hail Haze	tsra	ntsra	(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Hail Haze	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Hail Fog	tsra	ntsra	(w/cloud cover > 75%)
+Light Thunderstorm Rain Hail Fog	tsra	ntsra	(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Hail Fog	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Light Rain Hail	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Hail	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Light Rain Hail Fog/Mist	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Hail Fog/Mist	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm in Vicinity Hail	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm in Vicinity Hail Haze	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Haze in Vicinity Hail	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Light Rain Hail Haze	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Hail Haze	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Light Rain Hail Fog	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Heavy Rain Hail Fog	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Small Hail/Snow Pellets	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm Rain Small Hail/Snow Pellets	tsra	ntsra	(w/cloud cover > 75%)
+Light Thunderstorm Rain Small Hail/Snow Pellets	tsra	ntsra	(w/cloud cover > 75%)
+Heavy Thunderstorm Rain Small Hail/Snow Pellets	tsra	ntsra	(w/cloud cover > 75%)
+Thunderstorm in Vicinity	hi_tsra	hi_ntsra	(Cloud cover < 60%)
+Thunderstorm in Vicinity Fog	hi_tsra	hi_ntsra	(Cloud cover < 60%)
+Funnel Cloud	fc	nfc	
+Funnel Cloud in Vicinity	fc	nfc	
+Tornado/Water Spout	fc	nfc	
+Tornado	tor	ntor	
+Hurricane Warning	hur_warn		
+Hurricane Watch	hur_watch		
+Tropical Storm Warning	ts_warn		
+Tropical Storm Watch	ts_watch		
+Tropical Storm Conditions presently exist w/Hurricane Warning in effect	ts_nowarn		
+Windy	wind_skc	nwind_skc	
+Breezy	wind_skc	nwind_skc	
+Fair and Windy	wind_skc	nwind_skc	
+A Few Clouds and Windy	wind_few	nwind_few	
+Partly Cloudy and Windy	wind_sct	nwind_sct	
+Mostly Cloudy and Windy	wind_bkn	nwind_bkn	
+Overcast and Windy	nwind_bkn	nwind_bkn	
+Dust	du	ndu	
+Low Drifting Dust	du	ndu	
+Blowing Dust	du	ndu	
+Sand	du	ndu	
+Blowing Sand	du	ndu	
+Low Drifting Sand	du	ndu	
+Dust/Sand Whirls	du	ndu	
+Dust/Sand Whirls in Vicinity	du	ndu	
+Dust Storm	du	ndu	
+Heavy Dust Storm	du	ndu	
+Dust Storm in Vicinity	du	ndu	
+Sand Storm	du	ndu	
+Heavy Sand Storm	du	ndu	
+Sand Storm in Vicinity	du	ndu	
+Smoke	fu	fu	
+Haze	hz		
+Hot	hot		
+Cold	cold	ncold	
+Blizzard	blizzard	nblizzard	
+Fog/Mist	fg	nfg	
+Freezing Fog	fg	nfg	
+Shallow Fog	fg	nfg	
+Partial Fog	fg	nfg	
+Patches of Fog	fg	nfg	
+Fog in Vicinity	fg	nfg	
+Freezing Fog in Vicinity	fg	nfg	
+Shallow Fog in Vicinity	fg	nfg	
+Partial Fog in Vicinity	fg	nfg	
+Patches of Fog in Vicinity	fg	nfg	
+Showers in Vicinity Fog	fg	nfg	
+Light Freezing Fog	fg	nfg	
+Heavy Freezing Fog	fg	nfg	

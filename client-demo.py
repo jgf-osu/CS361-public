@@ -1,3 +1,5 @@
+# client-demo.py
+
 import socket
 import weather.service as ws
 

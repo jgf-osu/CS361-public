@@ -1,0 +1,5 @@
+This program makes use of web-based resources. To improve performance,
+it creates a local cache of files in its data directory (%s). You can
+delete these files, some of which might be no longer needed, but
+performance will be affected when rebuilding the local cache, and
+settings will return to their default values (as set in %s).

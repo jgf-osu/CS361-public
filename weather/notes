@@ -1,0 +1,11 @@
+XML containing all NWS observation stations:
+https://w1.weather.gov/xml/current_obs/index.xml
+
+MapQuest geocoding service:
+https://developer.mapquest.com/documentation/geocoding-api/address/get/
+
+Census Bureau geocoding service:
+https://www.census.gov/data/developers/data-sets/Geocoding-services.html
+
+Free geocoding --- NO KEY REQUIRED:
+https://geocode.maps.co/

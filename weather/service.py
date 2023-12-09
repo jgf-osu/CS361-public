@@ -1,21 +1,56 @@
+# weather/service.py
+
 import socket
 import json
 import sys
-import errno
 from . import configurator as config
 from .geocoder import Place, PlaceNotFound
 from .station import find_nearest_station
 
-def encode(python_dict):
-    j = json.dumps(python_dict)
-    return j.encode('utf-8')
+class WeatherServiceRequest:
+    def __init__(self, bytes_arr):
+        self._data = decode(bytes_arr)
 
-def decode(bytes_arr):
-    s = bytes_arr.decode('utf-8')
-    return json.loads(s)
+    @property
+    def city(self):
+        return self._data['city']
+
+    @property
+    def state(self):
+        return self._data['state']
+
+
+class WeatherServiceResponse:
+    def __init__(self, request):
+        self._req = request
+
+    @property
+    def _response(self):
+        resp = {'response-type': 'current-conditions'}
+        try:
+            resp['status'] = 'ok'
+            resp['msg'] = self._weather_report
+        except PlaceNotFound:
+            resp['status'] = 'PlaceNotFound'
+            resp['msg'] = 'Could not find that place.'
+        except Exception as e:
+            resp['status'] = e.__class__.__name__
+            resp['msg'] = str(e)
+        return resp
+
+    @property
+    def _weather_report(self):
+        location = Place(city=self._req.city, state=self._req.state)
+        weather_station = find_nearest_station(location)
+        return weather_station.brief_report
+
+    @property
+    def data(self):
+        return encode(self._response)
+
 
 class WeatherService:
-    def __init__(self, host=None, port=None):        
+    def __init__(self, host=None, port=None):
         self._cfg = config.Configurator()
         if host is not None:
             self._cfg['HOST'] = host
@@ -41,42 +76,29 @@ class WeatherService:
         sys.stderr.write(out)
     
     def listen(self):
-        self._write('Listening on port: %i\n' % self._cfg['PORT'])
+        self._write('Listening on port: %i\n' % self.port)
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:            
-            s.bind((self._cfg['HOST'], self._cfg['PORT']))
+            s.bind((self.host, self.port))
             s.listen(1)
-            conn, addr = s.accept()
-            with conn:
-                self._write('Connected by ' + str(addr) + '\n')
-                while True:
-                    bytes_arr = conn.recv(1024)
-                    if not bytes_arr: break
-                    req = decode(bytes_arr)
-                    try:
-                        location = Place(city=req['city'], state=req['state'])
-                        weather_station = find_nearest_station(location)
-                        rstatus = 'ok'
-                        rmsg = weather_station.brief_report
-                    except PlaceNotFound:
-                        rstatus = 'PlaceNotFound'
-                        rmsg = 'Unable to retrieve weather report. Could not geocode the provided location. Please try a different location.'
-                    except OSError as e:
-                        rstatus = e.__class__.__name__
-                        if e.errno:
-                            if e.errno in errno.errorcode:
-                                symbol = errno.errorcode[e.errno]
-                                rstatus += ' <Errno: %s>' % symbol
-                            else:
-                                rstatus += ' <Errno: %i>' % e.errno
-                        rmsg = str(e)
-                    except Exception as e:
-                        rstatus = e.__class__.__name__
-                        rmsg = str(e)
-                        
-                    response = {
-                        'status' : rstatus,
-                        'response-type': 'current-conditions',
-                        'message': rmsg
-                    }
-                    payload = encode(response)
-                    conn.sendall(payload)
+            self._conn, self._addr = s.accept()
+            self._handle_connection()
+            
+    def _handle_connection(self):
+        with self._conn:
+            self._write('Connected by ' + str(self._addr) + '\n')
+            while True:
+                bytes_arr = self._conn.recv(1024)
+                if not bytes_arr: break
+                request = WeatherServiceRequest(bytes_arr)
+                response = WeatherServiceResponse(request)
+                self._conn.sendall(response.data)
+
+
+def encode(python_dict):
+    j = json.dumps(python_dict)
+    return j.encode('utf-8')
+
+def decode(bytes_arr):
+    s = bytes_arr.decode('utf-8')
+    return json.loads(s)
+

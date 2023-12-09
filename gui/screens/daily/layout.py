@@ -3,13 +3,6 @@
 import PySimpleGUI as sg
 from gui import current
 from .forecast_table import get_forecast, get_forecast_table
-
-
-from debug import debug as debug_
-def debug(text, **kwargs):
-    text = '<gui/screens/daily/layout.py> ' + text
-    debug_(text, **kwargs)
-
     
 def get_window():
     title = 'Weather > Daily Forecast'
@@ -17,7 +10,6 @@ def get_window():
     return sg.Window(title, layout)
 
 def _get_layout():
-    debug("Getting layout.")
     main = []
     main.append(_heading())
     main.append(_location())
@@ -29,13 +21,11 @@ def _get_layout():
     return main
 
 def _heading():
-    debug("Getting heading.")
     font = ('sans', 12, 'bold italic')
     text = sg.Text('DAILY FORECAST', font=font)
     return [text]
 
 def _description():
-    debug("Getting description.")
     forecast = get_forecast()
     font = ('sans', 8, 'bold')
     txt = 'Daily forecasts available from %s to %s.' %\
@@ -44,7 +34,6 @@ def _description():
     return [text]
 
 def _location():
-    debug("Getting location.")
     return _location_col() + _coordinate_col()
 
 def _location_col():

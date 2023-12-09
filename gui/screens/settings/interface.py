@@ -4,12 +4,7 @@ import PySimpleGUI as sg
 from weather import configurator as config
 from weather.geocoder import Place, PlaceNotFound
 from weather.geography import states
-
 from .clear_cache import *
-
-# DEBUG: when set to true, some useful debugging information will be
-# printed to the the terminal during GUI operation
-DEBUG = False
 
 class SettingsInterface:
     def __init__(self):
@@ -51,7 +46,6 @@ class SettingsInterface:
 
     def read(self):
         self._event, self._values = self._window.read()
-        self.debug('read()')
         if 'Cache' in self._event:
             do_cache_action(self._event)
         return self._event
@@ -73,18 +67,6 @@ class SettingsInterface:
         self._stage_temperature()
         self._stage_text_field('-CITY-', 'CITY')
         self._stage_text_field('-STATE-', 'STATE')
-        self.debug('after stage()')
-
-    def debug(self, msg):
-        """Print some useful debug info if we're in DEBUG mode."""
-        if not DEBUG:
-            return
-        print(msg)
-        print('READ: %s' % str(self._values))
-        print('CFGR: %s' % str(self._cfg.settings))
-        print('CFG.modified:', self._cfg.modified,
-              self._cfg.modification_count)
-        print()
 
     # SettingsInterface: PRIVATE PROPERTIES
     @property
@@ -223,7 +205,6 @@ class SettingsInterface:
             sg.popup("Settings updated.")
         elif result == config.NOT_MODIFIED:
             sg.popup("No changes to save.")
-        self.debug('after save()')
 
     def _ask_to_revert(self):
         """Ask user to revert invalid location."""
@@ -242,7 +223,6 @@ class SettingsInterface:
         """Revert to previous location."""
         self._revert_text_field('-CITY-', 'CITY')
         self._revert_text_field('-STATE-', 'STATE')
-        self.debug('after _do_revert()')
 
     def _revert_text_field(self, sg_key, cfg_key):
         """Revert Configurator value and update GUI."""

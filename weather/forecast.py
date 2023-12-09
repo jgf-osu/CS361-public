@@ -7,12 +7,6 @@ from weather.pbp import PoweredByPickles
 from weather.geography import Point
 
 
-from debug import debug as debug_
-def debug(text, **kwargs):
-    text = '<weather/forecast.py> ' + text
-    debug_(text, **kwargs)
-
-    
 # NOAA National Weather Service API
 #   Documentation:
 #   https://www.weather.gov/documentation/services-web-api
@@ -40,8 +34,6 @@ class ForecastStore(PoweredByPickles):
 
     def add(self, point):
         assert(isinstance(point, Point))
-        debug("Store adding <%s>." %\
-              point_to_forecast_key(point))
         if point in self:
             raise ForecastError("Point already exists in store.")
         self._save_forecast(Forecast(point, self))
@@ -50,15 +42,12 @@ class ForecastStore(PoweredByPickles):
     def retrieve(self, point):
         assert(isinstance(point, Point))
         if point in self:
-            debug("Store retrieving <%s>." %\
-                  point_to_forecast_key(point))
             return self[point]
         else:
             return self.add(point)
 
     def update(self, forecast):
         assert(isinstance(forecast, Forecast))
-        debug("Store updating <%s>." % forecast.key)
         self._save_forecast(forecast)
 
     def _save_forecast(self, forecast):
@@ -77,19 +66,9 @@ class Forecast:
             self._items = dict()
 
     def __getitem__(self, key):
-        debug("Getting resource <%s> from: %s" %\
-              (key, str(self.stored_items)))
         if key not in self or self._items[key].stale:
-            if key not in self:
-                debug("Resource <%s> not found." % key)
-            else:
-                debug("Resource <%s> is stale." % key)
             self._items[key] = self._download_data(key)
-            debug("Downloaded resource <%s>. %s" %\
-                  (key, self._items[key].report))
             self.update()
-        else:
-            debug("Resource is NOT stale. %s" % self._items[key].report)
         return self._items[key]
 
     def __contains__(self, key):
@@ -182,7 +161,6 @@ class Forecast:
         return _follow_path(self, path, self.forecast_index_url)
 
     def _download_data(self, key):
-        debug("Downloading <%s> from API." % key)
         url = self._get_item_url(key)
         r = NwsApi.get(url)
         r = r.json()

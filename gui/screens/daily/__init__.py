@@ -3,13 +3,7 @@
 import PySimpleGUI as sg
 from gui import current
 from gui.screens import home
-from debug import debug
 from .layout import get_window
-
-from debug import debug as debug_
-def debug(text, **kwargs):
-    text = '<gui/screens/daily/__init__.py> ' + text
-    debug_(text, **kwargs)
 
 def show():
     if current.place_not_found():
@@ -19,7 +13,6 @@ def show():
         _show()
 
 def _show():
-    debug("Getting window.")
     window = get_window()
     event = _ui_loop(window)
     window.close()
@@ -27,7 +20,6 @@ def _show():
         _navigate(event)
         
 def _ui_loop(window):
-    debug("Got window.")
     while True:
         event, values = window.read()
         if event == sg.WIN_CLOSED:

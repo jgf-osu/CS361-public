@@ -4,11 +4,6 @@ import PySimpleGUI as sg
 from gui import current
 from gui.table import ForecastTable
 
-from debug import debug as debug_
-def debug(text, **kwargs):
-    text = '<gui/screens/daily/forecast_table.py> ' + text
-    debug_(text, **kwargs)
-
 class DayForecastTable(ForecastTable):
     def __init__(self, daily_forecast):
         super().__init__(daily_forecast)
@@ -29,12 +24,9 @@ class DayForecastTable(ForecastTable):
         return [self.gui_text(dayforecast.date)]
 
 def get_forecast():
-    debug("Getting forecast.")
     return current.forecast().daily
 
 def get_forecast_table():
-    debug("Getting forecast to build table.")
     forecast = get_forecast()
-    debug("Got forecast. Building table.")
     dft = DayForecastTable(forecast)
     return dft.table
